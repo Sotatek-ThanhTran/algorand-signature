@@ -1,0 +1,29 @@
+{
+  "name": "sota-dex-algorand-contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@algo-builder/algob": "3.2.0",
+    "@algo-builder/runtime": "3.2.0",
+    "@algo-builder/web": "3.2.0",
+    "algosdk": "^1.13.1",
+    "crypto": "^1.0.1",
+    "js-sha3": "^0.8.0",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "mocha": "^9.2.0"
+  },
+  "scripts": {
+    "algob": "algob",
+    "lint": "eslint --ext .js,.ts scripts",
+    "lint:fix": "eslint --fix --ext .js,.ts scripts",
+    "build:docs": "echo ok",
+    "build": "echo ok"
+  },
+  "mocha": {
+    "file": "../../test/setup.js"
+  }
+}
